@@ -10,9 +10,6 @@ def print_a_ndarray(map, row_sep=" "):
     print(fmt_str.format(*map.ravel()))
 matrix=np.loadtxt("input.txt",dtype='i',delimiter=',')
 
-
-
-
 start="------- Start=1"
 end="    End=2"
 key="    Key=3"
@@ -162,4 +159,6 @@ if number=="4":
     print("đường đi:")
     UCS(matrix, (0, 0), (9, 9))
 
- # NGUỒN THAO KHẢO CHÍNH https://stackoverflow.com/
+ # NGUỒN THAO KHẢO CHÍNH 
+#https://stackoverflow.com/
+#https://leetcode.com/problems/pacific-atlantic-water-flow/discuss/?currentPage=1&orderBy=hot&query=
